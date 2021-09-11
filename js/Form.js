@@ -5,7 +5,7 @@ class Form{
        this.greeting = createElement('h2');
        this.title = createElement('h2');
        this.reset = createButton('RESET');
-        this.waring = createElement('h4');
+     
     }
     hide() {
         this.greeting.hide();
@@ -18,9 +18,7 @@ class Form{
         this.title.position(350, 50);
         this.title.style('font-size', '70px');
         this.title.style('color', 'skyblue');
-        this.waring.html("If there is any problem while starting the game please click 'RESET' button");
-        this.waring.style('font-size', '40px');
-        this.waring.position(100, 10);
+        
         this.input.position(550,400);
         this.input.style('width', '200px');
         this.input.style('height', '20px');
